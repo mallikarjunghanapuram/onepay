@@ -1,0 +1,26 @@
+{
+  "name": "pm-onepay-adapter",
+  "version": "1.0.0",
+  "description": "onepay checkout integration adapter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "startdev": "node index.js"
+  },
+  "author": "PM",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.548.0",
+    "axios": "^0.19.0",
+    "bunyan": "^1.8.12",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.0.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "querystring": "^0.2.0",
+    "useragent": "^2.3.0",
+    "uuid": "^3.1.0",
+    "validatorjs": "^3.17.1"
+  }
+}
