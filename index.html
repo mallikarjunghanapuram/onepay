@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Redirecting,Wait...</title>
+</head>
+
+<body>
+	<form id="asiagatesubmit" name="asiagatesubmit"
+		action="https://api.onepay.solutions/payment/v3/unionpayIntGate.html" method="GET">
+		<input type="hidden" name="deviceType" value="WEB"/>
+		<input type="hidden" name="amountFee" value="11.00"/>
+		<input type="hidden" name="sign" value="5a654247316d5245326367366f6a4a4746554f493235763537347539362f4c4e7168757155785a6d7030396161336f53437174386f4e692f7350382f656c4d496e3741374c357063796243387078396d5a4b637765767763695443505a366c6e5655334a48415373424e577a6432356c4c717665556f6f504e36653665694e75745a566c4c464d705a63494a41743363686131625a573175554376776d35534736754c7248717758534f413d"/>
+		<input type="hidden" name="cardType" value="D"/>
+		<input type="hidden" name="merchantTradeId" value="3456332462gfhfj53"/>
+		<input type="hidden" name="userName" value=""/>
+		<input type="hidden" name="version" value="1.0"/>
+		<input type="hidden" name="paymentCard" value=""/>
+		<input type="hidden" name="issuingBank" value="UNIONPAY"/>
+		<input type="hidden" name="payType" value="NC"/>
+		<input type="hidden" name="merchantId" value="6379"/>
+		<input type="hidden" name="payIp" value=""/>
+		<input type="hidden" name="signType" value="RSA"/>
+		<input type="hidden" name="notifyUrl" value="https://notifications-api.dev.paymero.io/transactions/onepay/1111"/>
+		<input type="hidden" name="inputCharset" value="UTF-8"/>
+		<input type="hidden" name="currency" value="CNY"/>
+		<input type="hidden" name="goodsTitle" value="test"/>
+		<input type="hidden" name="returnUrl" value="https://service-api.dev.paymero.io/v1/deposit/bank-transfer/3rd-party-gateway"/>
+		<input type="hidden" name="subIssuingBank" value=""/>
+		<input type="submit" value="提交" style="display:none;">
+</form>
+		<script>
+			document.forms['asiagatesubmit'].submit();
+		</script>
+</body>
+
+</html>
